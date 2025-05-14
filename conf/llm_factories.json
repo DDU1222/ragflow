@@ -3281,6 +3281,20 @@
             "tags": "LLM,TEXT EMBEDDING,TTS,SPEECH2TEXT,TEXT RE-RANK",
             "status": "1",
             "llm": []
+        },
+        {
+            "name": "Aihubmix",
+            "logo": "",
+            "tags": "LLM",
+            "status": "1",
+            "llm": [
+                {
+                    "llm_name": "anthropic-3-5-sonnet-20240620",
+                    "tags": "LLM,CHAT,IMAGE2TEXT,200k",
+                    "max_tokens": 200000,
+                    "model_type": "chat"
+                }
+            ]
         }
     ]
 }

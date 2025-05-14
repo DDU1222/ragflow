@@ -1446,6 +1446,13 @@ class PPIOChat(Base):
         super().__init__(key, model_name, base_url)
 
 
+class AihubmixChat(Base):
+    def __init__(self, key, model_name, base_url="https://aihubmix.com/v1"):
+        if not base_url:
+            base_url = "https://aihubmix.com/v1"
+        super().__init__(key, model_name, base_url)
+
+
 class CoHereChat(Base):
     def __init__(self, key, model_name, base_url=""):
         super().__init__(key, model_name, base_url=None)
